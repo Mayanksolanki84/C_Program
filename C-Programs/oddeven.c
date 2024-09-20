@@ -3,7 +3,9 @@
 void main()
 {
 
-    int no = 4;
+    int no;
+    printf("enter a no: ");
+    scanf("%d", &no);
 
     if ("%d", no % 2 == 0)
     {
